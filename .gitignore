@@ -1,7 +1,5 @@
-#Ignoring this files
-*.min.js
+*.min.*
 .vscode/
-p5.js
-p5.min.js
-addons/
-git rm --cached p5.js
+p5.*
+#removing explicitly addons folder
+git rm --cached addons
