@@ -1,5 +1,4 @@
 *.min.*
 .vscode/
 p5.*
-#removing explicitly addons folder
-git rm --cached addons
+/addons
