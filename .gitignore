@@ -1,5 +1,7 @@
 #Ignoring this files
-.vscode
+*.min.js
+.vscode/
 p5.js
 p5.min.js
-/addons
+addons/
+git rm --cached p5.js
