@@ -1,6 +1,6 @@
 //sales person algorithm
 const bikingPoints = [];
-const numberBikingPoints = 4;
+var numberBikingPoints = 10;
 
 let recordDistance=0;
 let bestEver;
@@ -27,7 +27,7 @@ function setup() {
 
 function draw() {
   background(0);
-  console.log(vals);
+  //console.log(vals);
   //Step 1
   let largestI = -1;
   let flagLargest = [];
